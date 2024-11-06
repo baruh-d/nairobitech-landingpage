@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nairobi Tech Meet-Up</title>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <nav>
+            <a href="#" class="logo">
+                <i class="fas fa-code"></i>
+                NairobiTech
+            </a>
+            <ul class="nav-links">
+                <li><a href="#about">About</a></li>
+                <li><a href="#agenda">Agenda</a></li>
+                <li><a href="#testimonials">Testimonials</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <!-- Hero Section with Countdown Timer -->
+    <section id="hero">
+        <h2>Join us for the Ultimate Tech Gathering</h2>
+        <p>Countdown to the Event:</p>
+        <div id="countdown">
+            <div class="countdown-item">
+                <div class="countdown-number" id="days">00</div>
+                <div class="countdown-label">Days</div>
+            </div>
+            <div class="countdown-item">
+                <div class="countdown-number" id="hours">00</div>
+                <div class="countdown-label">Hours</div>
+            </div>
+            <div class="countdown-item">
+                <div class="countdown-number" id="minutes">00</div>
+                <div class="countdown-label">Minutes</div>
+            </div>
+            <div class="countdown-item">
+                <div class="countdown-number" id="seconds">00</div>
+                <div class="countdown-label">Seconds</div>
+            </div>
+        </div>
+        <a href="#register" class="register-btn">Register</a>
+    </section>
+
+    <!-- About Section -->
+     <section id="about" class="fade-in">
+        <h2>About the Event</h2>
+        <p>Discover the latest trends, network with industry leaders, and boost your skills!</p>
+     </section>
+
+    <!-- Agenda Section  -->
+    <section id="agenda" class="fade-in">
+        <h2>Event Agenda</h2>
+        <div id="agenda-list">
+          <div class="agenda-item">
+            <h3>Opening Remarks</h3>
+            <p class="agenda-time">09:00 AM - 09:30 AM</p>
+            <p class="agenda-description">Join us for an introduction and overview of the day's events, led by our host.</p>
+          </div>
+          <div class="agenda-item">
+            <h3>Keynote Speech: The Future of Tech</h3>
+            <p class="agenda-time">09:30 AM - 10:30 AM</p>
+            <p class="agenda-description">An inspiring talk by industry leaders about emerging trends and technologies.</p>
+          </div>
+          <div class="agenda-item">
+            <h3>Panel Discussion: Innovating for Tomorrow</h3>
+            <p class="agenda-time">10:30 AM - 11:30 AM</p>
+            <p class="agenda-description">Join a panel of experts as they discuss how innovation shapes our future.</p>
+          </div>
+          <div class="agenda-item">
+            <h3>Networking Break</h3>
+            <p class="agenda-time">11:30 AM - 12:00 PM</p>
+            <p class="agenda-description">A chance to connect with fellow attendees and speakers over refreshments.</p>
+          </div>
+          <div class="agenda-item">
+            <h3>Workshops: Hands-On Learning</h3>
+            <p class="agenda-time">12:00 PM - 01:30 PM</p>
+            <p class="agenda-description">Participate in interactive workshops covering various tech topics.</p>
+          </div>
+          <div class="agenda-item">
+            <h3>Lunch Break</h3>
+            <p class="agenda-time">01:30 PM - 02:30 PM</p>
+            <p class="agenda-description">Enjoy a delicious lunch while mingling with other attendees.</p>
+          </div>
+          <div class="agenda-item">
+            <h3>Closing Remarks</h3>
+            <p class="agenda-time">02:30 PM - 03:00 PM</p>
+            <p class="agenda-description">Wrap up the day with final thoughts and next steps from our organizers.</p>
+          </div>
+        </div>
+    </section>
+      
+
+    <!-- Testimonials Section -->
+    <section id="testimonials" class="fade-in">
+        <h2>What Attendees Are Saying</h2>
+        <div id="testimonial-list">
+          <div class="testimonial-item">
+            <img src="./images/john.avif" alt="John Smith" class="profile-pic">
+            <div class="testimonial-content">
+              <p>"This event changed my perspective on technology! The discussions were incredibly insightful and engaging. I left feeling inspired to take action!" - John Smith</p>
+            </div>
+          </div>
+          <div class="testimonial-item">
+            <img src="./images/sarah.avif" alt="Sarah Lee" class="profile-pic">
+            <div class="testimonial-content">
+              <p>"A fantastic opportunity to learn and connect! The networking sessions were invaluable, and I made several meaningful connections." - Sarah Lee</p>
+            </div>
+          </div>
+          <div class="testimonial-item">
+            <img src="./images/mike.avif" alt="Mike Johnson" class="profile-pic">
+            <div class="testimonial-content">
+              <p>"The speakers were incredibly inspiring! Each session offered unique insights that challenged my thinking and encouraged innovation." - Mike Johnson</p>
+            </div>
+          </div>
+          <div class="testimonial-item">
+            <img src="./images/emily.avif" alt="Emily Davis" class="profile-pic">
+            <div class="testimonial-content">
+              <p>"An eye-opening experience that I will never forget! The topics discussed were relevant and thought-provoking." - Emily Davis</p>
+            </div>
+          </div>
+          <div class="testimonial-item">
+            <img src="./images/david.avif" alt="David Brown" class="profile-pic">
+            <div class="testimonial-content">
+              <p>"Great networking opportunities with industry leaders! I walked away with new knowledge and new contacts." - David Brown</p>
+            </div>
+          </div>
+          <div class="testimonial-item">
+            <img src="./images/rachel.avif" alt="Rachel Green" class="profile-pic">
+            <div class="testimonial-content">
+              <p>"I gained so many valuable insights during the sessions! The variety of topics covered made it worthwhile." - Rachel Green</p>
+            </div>
+          </div>
+        </div>
+      </section>
+      
+      
+
+    <!-- Contact Section with Sign-Up Form -->
+    <section id="contact" class="fade-in">
+      <h2>Contact Us</h2>
+      <div class="form-container">
+          <form id="contact-form">
+              <label for="name">Name</label>
+              <input type="text" id="name" name="name" required>
+              
+              <label for="email">Email</label>
+              <input type="email" id="email" name="email" required>
+              
+              <label for="message">Message</label>
+              <input type="text" id="message" name="message" required>
+              
+              <button type="submit">Send Message</button>
+          </form>
+          <div id="form-feedback"></div>
+      </div>
+    </section>
+
+      
+
+    <!-- Footer Section -->
+    <footer>
+        <p>Follow us on Social Media!</p>
+    </footer>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
